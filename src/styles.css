@@ -1,0 +1,115 @@
+h1,
+p {
+  color: black;
+  font-family: arial;
+}
+
+h1 {
+  color: black;
+  font-size: 24px;
+  font-weight: 100;
+  margin: 20px;
+  padding-top: 15px;
+}
+
+h3 {
+  color: #e07f6e;
+}
+
+ul {
+  margin: 0 0 10px;
+  padding: 20px 0px 40px;
+}
+
+li {
+  color: black;
+  font-size: 18px;
+  font-weight: 100;
+  height: 19px;
+  line-height: 1;
+  list-style: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#container {
+  display: block;
+  width: 670px;
+  max-width: 670px;
+}
+
+#currentTemp {
+  color: black;
+  font-size: 90px;
+  font-weight: 400;
+}
+
+#description {
+  text-transform: capitalize;
+}
+
+#current-location-button {
+  background-color: #f26248;
+  border-color: #f26248;
+}
+
+#code-source {
+  text-align: center;
+  margin: 0 auto;
+  color: #f26248;
+}
+
+#icon {
+  position: relative;
+  top: -30px;
+}
+
+#forecast {
+  text-align: center;
+}
+
+.weatherapp {
+  border: solid #b6d7de 2px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 670px;
+  border-radius: 20px;
+}
+
+.units {
+  font-size: 20px;
+  position: relative;
+  top: -48px;
+}
+
+.search {
+  margin: 20px 0 20px;
+  padding-left: 20px;
+}
+
+.forecast {
+  padding: 0 20px 20px 20px;
+}
+
+.active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.active:hover {
+  color: rgb(33, 33, 33);
+}
+
+.day {
+  font-size: 16px;
+}
+
+.dayTemp {
+  font-size: 13px;
+}
+
+.forecast-max {
+  color: black;
+}
